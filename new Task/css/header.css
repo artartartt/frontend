@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+}
+a{
+	text-decoration: none;
+	color: white !important;
+}
+.header_img{
+	width: 50%;
+}
+.header_img img{
+	width: 100%;
+}
+
+.header_text_block {
+	background: #4837e9;
+	padding-left: 93px;
+	width: 50%;
+}
+.header_text{
+	margin-top: 354px;
+}
+.header_text h3{
+	color:#48e7e8;
+	font-size: 36px;
+}
+.header_text h1{
+	color: white;
+	font-size: 93px;
+	font-weight: bold;
+	max-width: 300px;
+	line-height: 105px;
+	margin-bottom: -25px;
+}
+
+.one_morning{
+	margin-top: 51px;
+	font-size: 20px;
+	max-width: 629px;
+	color: #674ee1;
+}
+.fa-facebook-f:before, .fa-facebook:before {
+	content: "\f39e" !important;
+}
+.social {
+	margin-top: 119px;
+}
+.social a{
+	margin-right: 34px;
+}
+.social svg{
+	font-size: 23px;
+ }
+.header_text_end .tel{
+	margin-top: 43px;
+	margin-bottom: 0px;
+	font-size: 19px;
+	color: #674ee1;
+
+}
+.header_text_end .email{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: white;
+	margin-bottom: 0px;
+ }
+
+
+
+@media only screen and (max-width: 1200px) {
+	.header_text {
+		top: 10%;
+	}
+	.header_text h1 {
+		font-size: 80px;
+	}
+
+	.header_text_block {
+		padding-right: 20px;
+	}
+
+
+}
