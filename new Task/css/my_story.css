@@ -1,6 +1,6 @@
 .my_story{
 	width: 50%;
-	padding: 119px 100px 0 88px;
+	padding: 119px 102px 0 88px;
 
 }
 .my_story_header{
@@ -21,3 +21,32 @@
 	margin-left: 10px;
 	font-weight: bold;
 }
+
+.a_collection{
+	line-height: 32px;
+    margin-top: 29px;
+    color: #674ee1;
+    font-size: 30px;
+}
+.text_collection{
+	font-size: 19.7px;
+    margin-top: 60px;
+    line-height: 28px
+}
+.blocks_percentage{
+	margin-top: 60px;
+	margin-bottom: 100px
+}
+.block_percentage_1{
+	margin-bottom: 21px;
+}
+.percentage{
+	justify-content: space-between;
+}
+.percentage h2{
+	font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+

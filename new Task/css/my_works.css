@@ -1,0 +1,53 @@
+.my_works{
+
+	padding-left: 84px;
+    background: #4837e9;
+    padding-top: 153px;
+    font-weight: 700;
+}
+
+.my_works_header{
+	align-items: center;
+	font-size: 76px;
+    margin-left: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.my_works_header hr{
+	width: 30px;
+	border: 2px solid white;
+	margin-right: 20px;
+	margin-left:5px;
+}
+
+.my_works_header .Works{
+	margin-left: 10px;
+}
+.my_works_collection{
+	width: 714px;
+    font-size: 19.65px;
+    color: white;
+    font-weight: 100;
+    padding-left: 31px;
+    padding-top: 20px;
+    margin-left: 158px;
+    margin-right: 40px;
+} 
+.btn_circle{
+	color: white;
+    font-size: 44px;
+    margin-right: 89px;
+    margin-top: 14px;
+}
+
+.view_all_work{
+	text-align: right;
+    margin-top: 7px;
+    width: 47.4%;
+    font-size: 19px;
+}
+.view_all_work a{
+	color: #48e7e8 !important;
+}
