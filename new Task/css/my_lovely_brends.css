@@ -1,0 +1,27 @@
+.my_lovely_brends{
+	background: #5529d6;
+}
+.header_my_lovely_brends{
+	padding-top: 150px;
+	text-align: center;
+	padding-bottom: 70px;
+}
+.header_my_lovely_brends h1{
+    color: white;
+    font-size: 76px;
+    font-weight: 700;
+}
+.header_my_lovely_brends hr{
+    background: #48e7e8;
+    width: 82px;
+    margin: auto;
+
+}
+.lovely_img {
+	margin-left: 100px;
+	padding-bottom: 100px
+}
+.lovely_img img{
+	width: 228px;
+	margin-right: 56px;
+}

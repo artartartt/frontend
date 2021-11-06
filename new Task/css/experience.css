@@ -1,0 +1,74 @@
+
+.experience{
+	padding-bottom: 41px;
+}
+
+.experience_left {
+	width: 35%;
+	padding-left: 86px;
+	padding-right: 78px;
+	margin-top: 130px;
+}
+.experience_right{
+	width: 65%;
+	margin-top: 130px;
+	padding-left: 40px;
+}
+.experience_left .block h1{
+	font-size: 80px;
+    font-weight: 700;
+}
+.experience_left .block hr{
+	margin-top: 2px;
+	float: right;
+    width: 79px;
+    background: #4837e9;
+
+}
+.experience_left .block {
+	margin-bottom: 119px;
+}
+
+.line_and_year{
+	text-align: right;
+	font-size: 23px;
+	font-weight: bold;
+	margin-bottom: -30px;
+}
+	
+.line_and_year span{
+	margin-left: 28px;
+}
+.line_horizon {
+	position: relative;
+	top:-10px;
+  	right: 6px;
+	border-right: 1px solid gray;
+  	height: 218px;
+}
+.text_experience{
+	width: 680px;
+    font-size: 19.6px;
+    margin-top: 25px;
+    margin-bottom: 103px;
+}
+
+.block_lucaz_film h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+    color: #4837e9;
+}
+.block_lucaz_film h3{
+	font-size: 21px;
+	color: gray;
+}
+.block_lucaz_film p{
+	font-size: 27.5px;
+	color: #c3c3c3;
+	max-width: 70%;
+	margin-top: 12px;
+	margin-bottom: 60px;
+}
+

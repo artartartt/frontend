@@ -1,0 +1,58 @@
+.my_blog{
+	background: url(../img/2.png) no-repeat ;
+	background-size: 100%;
+	padding: 214px 88px 100px 88px;
+
+}
+
+.my_blog_header .my_works_collection{
+	margin-left: auto;
+	margin-right: 72px;
+}
+.my_blog_header .btn_circle{
+	float: right;
+	margin-right: 0px;
+}
+
+.my_blog_read{
+	margin-top: 7px;
+    margin-right: 191px;
+    color: #674ee1;
+    font-size: 19px;
+    text-align: center;
+}
+
+.my_blog_block {
+	margin-top: 10px;
+	padding-right: 26px;
+	width: 33%;
+	color: white;
+}
+.my_blog_block h1{
+	font-size: 38px;
+	margin-top: 53px;
+}
+.my_blog_block svg{
+	margin-right: 4px;
+}
+.block_and_time_my_blog p{
+	font-size: 19px;
+	margin-right: 23px;
+}
+.my_blog_block .text{
+	font-size: 19px;
+    padding-top:7px;
+}
+.my_blog_block hr{
+	background:#674ee1;
+	margin-top: 35px;
+}
+.header_block_my_blog .one {
+  margin-left: 18px;
+}
+.header_block_my_blog .two {
+  width: 32%;
+  margin-left: 27px;
+  padding-right: 0px;
+}
+
