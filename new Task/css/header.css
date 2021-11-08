@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Playfair+Display:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display';
+
 }
 a{
 	text-decoration: none;
 	color: white !important;
 }
 #head_image {
-	background: url(../img/1.jpg) no-repeat  center; 
+	background: url(../img/1.jpg) no-repeat  center;
 }
 .header_img{
 	width: 50%;
@@ -21,6 +24,7 @@ a{
 .header_text_block {
 	background: #4837e9;
 	padding-left: 93px;
+	padding-bottom: 107px;
 	width: 50%;
 }
 .header_text{
@@ -28,11 +32,13 @@ a{
 }
 .header_text h3{
 	color:#48e7e8;
-	font-size: 36px;
+	font-size: 33px;
+	font-family: 'Playfair Display', serif;
+
 }
 .header_text h1{
 	color: white;
-	font-size: 93px;
+	font-size: 88px;
 	font-weight: bold;
 	max-width: 300px;
 	line-height: 105px;
@@ -40,8 +46,8 @@ a{
 }
 
 .one_morning{
-	margin-top: 51px;
-	font-size: 20px;
+	margin-top: 58px;
+	font-size: 18px;
 	max-width: 629px;
 	color: #674ee1;
 }
@@ -49,27 +55,29 @@ a{
 	content: "\f39e" !important;
 }
 .social {
-	margin-top: 119px;
+	margin-top: 123px;
 }
 .social a{
 	margin-right: 34px;
 }
 .social svg{
 	font-size: 23px;
- }
+}
 .header_text_end .tel{
 	margin-top: 43px;
 	margin-bottom: 0px;
-	font-size: 19px;
+	font-size: 17px;
 	color: #674ee1;
-
+	font-family: 'Open Sans';
 }
 .header_text_end .email{
+	margin-top: 4px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	color: white;
 	margin-bottom: 0px;
- }
+	font-weight: 100;
+}
 
 
 
