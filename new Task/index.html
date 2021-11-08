@@ -11,10 +11,18 @@
 	<link rel="stylesheet" href="css/my_blog.css">
 	<link rel="stylesheet" href="css/contact.css">
 	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/slid.css">
 
+	<script
+		src="https://code.jquery.com/jquery-3.6.0.slim.js"
+		integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+		crossorigin="anonymous"></script>
+	<script
+		src="https://code.jquery.com/jquery-3.6.0.js"
+		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+		crossorigin="anonymous"></script>
 
-
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -25,7 +33,7 @@
 <body>
 <header class="d-flex">
 	<div id='head_image' class="header_img" >
-		
+
 	</div>
 
 		<div class="d-flex header_text_block" >
@@ -58,7 +66,7 @@
 			<span class="my">My</span>
 			<span class="story">Story</span>
 		</h1>
-		<p class="a_collection">A collection of textile samples lay spread out on the table - Samsa was a travelling salesman and above it there a picture that is good.	
+		<p class="a_collection">A collection of textile samples lay spread out on the table - Samsa was a travelling salesman and above it there a picture that is good.
 		</p>
 		<p class="text_collection">
 			One morning, when Gregor Samsa wake from troubled dreams, he found himself
@@ -79,7 +87,7 @@
 				<div class="d-flex">
 					<hr style="width:95%;border: 2px solid #674ee1">
 					<hr style="width:5%;border: 2px solid gray">
-				</div>	
+				</div>
 			</div>
 
 			<div class="block_percentage_1">
@@ -90,7 +98,7 @@
 				<div class="d-flex">
 					<hr style="width:85%;border: 2px solid #674ee1">
 					<hr style="width:15%;border: 2px solid gray">
-				</div>	
+				</div>
 			</div>
 
 			<div class="block_percentage_1">
@@ -101,7 +109,7 @@
 				<div class="d-flex">
 					<hr style="width:90%;border: 2px solid #674ee1">
 					<hr style="width:10%;border: 2px solid gray">
-				</div>	
+				</div>
 			</div>
 			<div class="block_percentage_1">
 				<div class="d-flex percentage">
@@ -111,7 +119,7 @@
 				<div class="d-flex">
 					<hr style="width:70%;border: 2px solid #674ee1">
 					<hr style="width:30%;border: 2px solid gray">
-				</div>	
+				</div>
 			</div>
 
 		</div>
@@ -122,25 +130,33 @@
 </section>
 
 <section class="my_works">
+	<script src="js/slick.min.js"></script>
+	<script src="js/slide_my_works.js"></script>
 	<div class="d-flex one_block">
 		<h1 class="my_works_header d-flex">
 			<hr>
 			<span class="my">My</span>
 			<span class="Works">Works</span>
-		</h1>	
+		</h1>
 
-			<span class="my_works_collection">One morning when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.	
+			<span class="my_works_collection">One morning when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
 			</span>
-		
+
 		<div class="btn_circle">
-			<i class="fas fa-chevron-circle-left"></i>
-			<i class="fas fa-chevron-circle-right"></i>
+			<i class="fas fa-chevron-circle-left" style="cursor: pointer" onclick="next_img();"></i>
+			<i class="fas fa-chevron-circle-right" style="cursor: pointer" onclick="previous_img();"></i>
 		</div>
 	</div>
 	<div class="view_all_work">
-		<a href="#">View All Works</a> 
+		<a href="#">View All Works</a>
 	</div>
-	<div class="img_for_slide">
+
+
+	<div class="slider_my_works img_for_slide">
+		<img src="img/slide1.png">
+		<img src="img/slide2.png">
+		<img src="img/slide3.png">
+		<img src="img/slide4.png">
 		<img src="img/slide1.png">
 		<img src="img/slide2.png">
 		<img src="img/slide3.png">
@@ -157,80 +173,118 @@
 			</div>
 			<div class="text_one_morning">
 				<span class="">One morning when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.He lay on his armour-lik back, and if he lifted his head a little he could see his brown belly, slightly domed.
-				</span>		
+				</span>
 			</div>
 		</div>
 
 		<div class="block_head d-flex">
 			<div class="line_and_year ">
-				1985-1990 <span>o</span> 
+				1985-1990 <span>o</span>
 				<hr class="vertical_line">
 			</div>
-			
+
 				<div class="block_lucaz_film">
 					<h2>Lucaz Film</h2>
 					<h3>Gerneral Crew</h3>
 					<p class="">One morning,when Gregor Samsa woke from trubled dreams, he found himself transformed in his good dream</p>
-				</div>			
+				</div>
 		</div>
 
 		<div class="block_head d-flex">
 			<div class="line_and_year ">
-				1990-1997 <span>o</span> 
+				1990-1997 <span>o</span>
 				<hr class="vertical_line">
 			</div>
-			
+
 				<div class="block_lucaz_film">
 					<h2>Abrize Studio</h2>
 					<h3>Art Director</h3>
 					<p class="">One morning,when Gregor Samsa woke from trubled dreams, he found himself transformed in his good dream</p>
-				</div>			
+				</div>
 		</div>
 
 		<div class="block_head d-flex">
 			<div class="line_and_year ">
-				1997-2017 <span>o</span> 
+				1997-2017 <span>o</span>
 			</div>
-			
+
 				<div class="block_lucaz_film">
 					<h2>Allen Film</h2>
 					<h3>Film Director</h3>
 					<p class="">One morning,when Gregor Samsa woke from trubled dreams, he found himself transformed in his good dream</p>
-				</div>			
+				</div>
 		</div>
-		
+
 
 	</div>
-	
-</section>
 
+</section>
 
 <section class="my_lovely_brends">
 	<div class="header_my_lovely_brends">
 		<h1>My Lovely Brends</h1>
 		<hr>
 	</div>
-	<div class="lovely_img">
-		<img src="img/brends1.png">
-		<img src="img/brends2.png">
-		<img src="img/brends3.png">
-		<img src="img/brends4.png">
-		<img src="img/brends5.png">
-		<div style="justify-content: center;" class="d-flex">
-			<h1>o</h1>
-			<h1>o</h1>
-			<h1>o</h1>
+	<script src="js/slick.min.js"></script>
+	<script src="js/slide.js"></script>
+	<div class="slider lovely_img">
+
+		<div class="slider__item ">
+			<img src="img/brends1.png" alt="">
 		</div>
+		<div class="slider__item">
+			<img src="img/brends2.png" alt="">
+		</div>
+		<div class="slider__item">
+			<img src="img/brends3.png" alt="">
+		</div>
+		<div class="slider__item">
+			<img src="img/brends4.png" alt="">
+		</div>
+		<div class="slider__item">
+			<img src="img/brends5.png" alt="">
+		</div>
+		<div class="slider__item ">
+			<img src="img/brends1.png" alt="">
+		</div>
+		<div class="slider__item">
+			<img src="img/brends2.png" alt="">
+		</div>
+		<div class="slider__item">
+			<img src="img/brends3.png" alt="">
+		</div>
+		<div class="slider__item">
+			<img src="img/brends4.png" alt="">
+		</div>
+		<div class="slider__item">
+			<img src="img/brends5.png" alt="">
+		</div>
+		<div class="slider__item ">
+			<img src="img/brends1.png" alt="">
+		</div>
+		<div class="slider__item">
+			<img src="img/brends2.png" alt="">
+		</div>
+		<div class="slider__item">
+			<img src="img/brends3.png" alt="">
+		</div>
+		<div class="slider__item">
+			<img src="img/brends4.png" alt="">
+		</div>
+		<div class="slider__item">
+			<img src="img/brends5.png" alt="">
+		</div>
+
 	</div>
 
 </section>
 <section class="my_blog">
-	<div class="my_blog_header d-flex">	
+	<div class="my_blog_header d-flex">
 			<h1 class="my_works_header d-flex">
 				<span class="my">My</span>
 				<span class="Works">Blog</span>
-			</h1>	
-				<span class="my_works_collection ">One morning when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.	
+			</h1>
+				<span class="my_works_collection ">One morning when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
 				</span>
 
 		<div class="btn_circle">
@@ -306,14 +360,14 @@
 		<textarea name="textarea" rows="5" cols="30" placeholder="Message*"></textarea>
 		<button class="btn_send_message">Send Message</button>
 	</div>
-	
+
 </section>
 
 <footer>
 	<div>
 		<h5>Copyright 2021 Vectus LLC. All Right Reseved</h5>
 	</div>
-	
+
 </footer>
 
 
