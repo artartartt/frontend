@@ -1,9 +1,37 @@
+/*
+	my_blog
+*/
+.slider_my_blog .slick-list{
+	overflow: hidden;
+}
+.slider_my_blog .slick-track{
+	display: flex;
+}
+.slider_my_blog .slick-next,.slider_my_blog .slick-prev{
+	width: 0px;
+	visibility: hidden;
+}
+
+
+/*
+	my_works
+*/
+
 .slider_my_works .slick-list{
 	overflow: hidden;
 }
+.slider_my_works .slick-track{
+	display: flex;
+}
 .slider_my_works .slick-next,.slider_my_works .slick-prev{
+	width: 0px;
 	visibility: hidden;
 }
+.slider_my_works img {
+	margin:0 !important;
+	width: 126px;
+}
+
 /*
 	my_lovely_brends
 */

@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="css/contact.css">
 	<link rel="stylesheet" href="css/media.css">
 	<link rel="stylesheet" href="css/slid.css">
+	<link rel="stylesheet" href="css/menu.css">
 
 	<script
 		src="https://code.jquery.com/jquery-3.6.0.slim.js"
@@ -31,6 +32,30 @@
 
 </head>
 <body>
+
+<!--menu-->
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="#">About</a>
+		<a href="#">Services</a>
+		<a href="#">Clients</a>
+		<a href="#">Contact</a>
+	</div>
+	<div class="menu_block">
+	</div>
+	<span id='menu' style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "100%";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+<!--end menu-->
+
 <header class="d-flex">
 	<div id='head_image' class="header_img" >
 
@@ -130,8 +155,7 @@
 </section>
 
 <section class="my_works">
-	<script src="js/slick.min.js"></script>
-	<script src="js/slide_my_works.js"></script>
+
 	<div class="d-flex one_block">
 		<h1 class="my_works_header d-flex">
 			<hr>
@@ -151,16 +175,39 @@
 		<a href="#">View All Works</a>
 	</div>
 
-
-	<div class="slider_my_works img_for_slide">
-		<img src="img/slide1.png">
-		<img src="img/slide2.png">
-		<img src="img/slide3.png">
-		<img src="img/slide4.png">
-		<img src="img/slide1.png">
-		<img src="img/slide2.png">
-		<img src="img/slide3.png">
-		<img src="img/slide4.png">
+	<script src="js/slick.min.js"></script>
+	<script src="js/slide_my_works.js"></script>
+	<div class="slider_my_works  ">
+		<div class="container">
+			<img src="img/slide1.png" alt="Avatar" class="image" >
+			<div class="middle">
+				<div class="text">John Doe</div>
+			</div>
+		</div>
+		<div class="container">
+			<img src="img/slide2.png" alt="Avatar" class="image" >
+			<div class="middle">
+				<div class="text">John Doe</div>
+			</div>
+		</div>
+		<div class="container">
+			<img src="img/slide3.png" alt="Avatar" class="image" >
+			<div class="middle">
+				<div class="text">John Doe</div>
+			</div>
+		</div>
+		<div class="container">
+			<img src="img/slide4.png" alt="Avatar" class="image" >
+			<div class="middle">
+				<div class="text">John Doe</div>
+			</div>
+		</div>
+		<div class="container">
+			<img src="img/slide3.png" alt="Avatar" class="image" >
+			<div class="middle">
+				<div class="text">John Doe</div>
+			</div>
+		</div>
 	</div>
 </section>
 
@@ -288,15 +335,17 @@
 				</span>
 
 		<div class="btn_circle">
-			<i class="fas fa-chevron-circle-left"></i>
-			<i class="fas fa-chevron-circle-right"></i>
+			<i class="fas fa-chevron-circle-left " style="cursor: pointer" onclick="my_blog_next_img()"></i>
+			<i class="fas fa-chevron-circle-right" style="cursor: pointer" onclick="my_blog_previous_img()"></i>
 		</div>
 	</div>
 	<p class="my_blog_read">Read The Blog</p>
 
-	<div class=" d-flex header_block_my_blog">
+	<script src="js/slick.min.js"></script>
+	<script src="js/slide_my_blog.js"></script>
+	<div class=" header_block_my_blog slider_my_blog">
 
-		<div class="my_blog_block">
+		<div class=" my_blog_block ">
 			<h1 >Pityful a rethoic question ran</h1>
 			<div class="d-flex block_and_time_my_blog">
 				<p><i class="far fa-clock"></i> June 6, 2016</p>
@@ -307,7 +356,8 @@
 			</p>
 			<hr>
 		</div>
-		<div class="my_blog_block one">
+
+		<div class="my_blog_block">
 			<h1 >Even the all-powerfull Pointing</h1>
 			<div class="d-flex block_and_time_my_blog">
 				<p><i class="far fa-clock"></i> June 6, 2016</p>
@@ -318,8 +368,19 @@
 			</p>
 			<hr>
 		</div>
-		<div class="my_blog_block two">
+		<div class="my_blog_block ">
 			<h1 >Separated they live in Bookmarksgrovc</h1>
+			<div class="d-flex block_and_time_my_blog">
+				<p><i class="far fa-clock"></i> June 6, 2016</p>
+				<p><i class="fas fa-pencil-alt"></i> Johm Smith</p>
+			</div>
+			<p class="text">
+				A wonderful serentiy has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole...
+			</p>
+			<hr>
+		</div>
+		<div class=" my_blog_block ">
+			<h1 >Pityful a rethoic question ran</h1>
 			<div class="d-flex block_and_time_my_blog">
 				<p><i class="far fa-clock"></i> June 6, 2016</p>
 				<p><i class="fas fa-pencil-alt"></i> Johm Smith</p>

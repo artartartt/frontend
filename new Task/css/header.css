@@ -5,11 +5,13 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Playfair Display';
-
 }
 a{
 	text-decoration: none;
 	color: white !important;
+}
+header div{
+	z-index: 3;
 }
 #head_image {
 	background: url(../img/1.jpg) no-repeat  center;

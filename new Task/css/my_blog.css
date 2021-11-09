@@ -1,7 +1,7 @@
 .my_blog{
 	background: url(../img/2.png) no-repeat ;
 	background-size: 100%;
-	padding: 214px 88px 155px 88px;
+	padding: 214px 88px 128px 88px;
 
 }
 
@@ -30,8 +30,8 @@
 	color: white;
 }
 .my_blog_block h1{
-	font-size: 34px;
-	margin-top: 53px;
+	font-size: 35px;
+	margin-top: 28px;
 	letter-spacing: -0.4px;
 }
 .my_blog_block svg{
