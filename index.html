@@ -23,6 +23,10 @@
 		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
 		crossorigin="anonymous"></script>
 
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -31,7 +35,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
 
 <!--menu-->
 	<div id="mySidenav" class="sidenav">
@@ -56,7 +60,27 @@
 	</script>
 <!--end menu-->
 
-<header class="d-flex">
+
+<!-- start  scroll-->
+
+<nav  id="myScrollspy" style="">
+	<ul class="nav nav-pills nav-stacked" >
+		<li class="active"><a href="#header"></a></li>
+		<li><a href="#my_story"></a></li>
+		<li><a href="#my_works"></a></li>
+		<li><a href="#experience"></a></li>
+		<li><a href="#my_lovely_brends"></a></li>
+		<li><a href="#my_blog"></a></li>
+		<li><a href="#contact"></a></li>
+	</ul>
+</nav>
+
+
+
+<!--end scroll-->
+
+
+<header id="header" class="d-flex">
 	<div id='head_image' class="header_img" >
 
 	</div>
@@ -83,7 +107,7 @@
 
 </header>
 
-<section class="d-flex">
+<section id="my_story" class="d-flex">
 	<div class="my_story">
 
 		<h1 class="my_story_header d-flex">
@@ -155,7 +179,7 @@
 
 </section>
 
-<section class="my_works">
+<section id="my_works" class="my_works">
 
 	<div class="d-flex one_block">
 		<h1 class="my_works_header d-flex">
@@ -212,7 +236,7 @@
 	</div>
 </section>
 
-<section class="experience d-flex">
+<section id="experience" class="experience d-flex">
 	<div class="experience_left" >
 		<div class="block_head d-flex">
 			<div>
@@ -268,7 +292,7 @@
 
 </section>
 
-<section class="my_lovely_brends">
+<section id="my_lovely_brends" class="my_lovely_brends">
 	<div class="header_my_lovely_brends">
 		<h1>My Lovely Brends</h1>
 		<hr>
@@ -326,7 +350,7 @@
 	</div>
 
 </section>
-<section class="my_blog">
+<section id="my_blog" class="my_blog">
 	<div class="my_blog_header d-flex">
 			<h1 class="my_works_header d-flex">
 				<span class="my">My</span>
@@ -395,7 +419,7 @@
 
 </section>
 
-<section class="contact d-flex">
+<section id="contact" class="contact d-flex">
 
 	<div class="contact_info">
 		<h1>Contact</h1>

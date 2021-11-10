@@ -1,7 +1,7 @@
 .my_blog{
 	background: url(../img/2.png) no-repeat ;
 	background-size: 100%;
-	padding: 214px 88px 128px 88px;
+	padding: 221px 88px 147px 88px;
 
 }
 
@@ -21,6 +21,7 @@
 	color: #674ee1;
 	font-size: 19px;
 	text-align: center;
+	margin-bottom: 27px;
 }
 
 .my_blog_block {

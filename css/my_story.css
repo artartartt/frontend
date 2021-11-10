@@ -1,6 +1,6 @@
 .my_story{
 	width: 50%;
-	padding: 119px 102px 0 88px;
+	padding: 119px 102px 6px 88px;
 
 }
 .my_story_header{
@@ -43,7 +43,7 @@
 	margin-left: -4px;
 }
 .block_percentage_1{
-	margin-bottom: 21px;
+	margin-bottom: 36px;
 }
 .percentage{
 	justify-content: space-between;
