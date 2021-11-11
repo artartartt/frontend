@@ -3,9 +3,16 @@ $(document).ready(function (){
 		arrows:true,
 		slidesToShow: 4,
 		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1475,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+				}
+			}]
 	});
 });
-
 
 function next_img(){
 	$(document).ready(function(){
@@ -17,5 +24,6 @@ function previous_img(){
 		$('.slider_my_works .slick-prev').click();
 	});
 }
+
 
 

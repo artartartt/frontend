@@ -1,75 +1,180 @@
 @media only screen and (max-width: 1579px) {
-  .my_works_collection {
-    margin-left: auto;
-  }
-  .img_for_slide {
-  	text-align: center;
-  }
-  .img_for_slide img{
-  	width: 33%;
-  }
-  	.lovely_img{
-	    flex-wrap: wrap;
-	    text-align: center;
+	.my_works_collection {
+		margin-left: auto;
+	}
+
+	.img_for_slide {
+		text-align: center;
+	}
+
+	.img_for_slide img {
+		width: 33%;
+	}
+
+	.lovely_img {
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	.my_lovely_brends .slider__item {
+		width: auto;
 	}
 }
+
 @media only screen and (max-width: 1420px) {
-	.my_works_collection{
+	.my_works_collection {
 		width: 33%;
 		margin: auto;
 	}
+
 	.view_all_work {
 		margin-top: 30px;
 	}
-	.my_works .one_block{
-	 align-items: baseline;
+
+	.my_works .one_block {
+		align-items: baseline;
+	}
+	.my_blog_read{
+		margin-right: 0;
 	}
 
 }
 
 
 @media only screen and (max-width: 1300px) {
-	.header_block_my_blog{
+	.header_block_my_blog {
 		flex-wrap: wrap;
-    	justify-content: center;
+		justify-content: center;
 	}
+
 
 }
 
 @media only screen and (max-width: 1280px) {
-	.block_head .text_one_morning{
+	.header_text_block {
+		padding-left: 50px;
+	}
+
+	.block_head .text_one_morning {
 		width: auto;
 		margin-right: 50px;
 		margin-left: 50px;
 	}
+
 	.one_morning {
-	    margin-right: 33px;
+		margin-right: 33px;
 	}
-	.block_lucaz_film p{
-		
+
+	.block_lucaz_film p {
+
 		margin-right: 30px;
 	}
-	.line_and_year{
+
+	.line_and_year {
 		margin: 0;
 	}
+
 	.my_blog {
 		background-size: 100% 100%;
 	}
+
 	.contact_info .addres {
 		text-align: center;
 	}
-	.contact_info .addres svg{
+
+	.contact_info .addres svg {
 		float: left;
 		margin-top: 6px;
 	}
+
 	.contact_info .email {
 		font-size: 16px;
 	}
 
+	.my_works .container {
+		width: auto !important;
+	}
+
+	.my_works .image {
+		width: auto !important;
+		height: 300px !important;
+	}
+	.lovely_img img{
+		width: 173px;
+		margin-right: 0px;
+	}
+
+}
+@media only screen and (max-width: 1032px) {
+	.contact {
+		padding-right: 43px;
+	}
+	.contact_info .addres {
+		font-size: 23px;
+
+	}
+	.contact_info .tel {
+		font-size: 28px;
+	}
+	.contact_info .email{
+		font-size: 19px;
+		display: flex;
+		flex-wrap: nowrap;
+	}
+	.contact_send_message{
+		padding-left: 85px;
+	}
+	.contact_info .social{
+		display: flex;
+	}
+
+
+}
+@media only screen and (max-width: 1000px) {
+
+	.header_text h1 {
+		font-size: 75px;
+	}
+
+	.header_text .one_morning {
+		font-size: 25px;
+	}
+
+	.social svg {
+		font-size: 40px;
+	}
+
+	.header_text_end .tel {
+		font-size: 27px;
+	}
+
+	.header_text_end .email {
+		font-size: 24px;
+	}
+
+	.my_story .a_collection, .my_story .text_collection {
+		font-size: 30px;
+		line-height: 33px;
+	}
+
+	.my_story {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+
+	.percentage h2 {
+		font-size: 24px;
+	}
+
+	.view_all_work {
+		margin-right: 0px;
+	}
+
+	.my_works {
+		padding-right: 40px;
+	}
+	.lovely_img{
+		margin-left: 66px;
+	}
+
 }
 
-@media only screen and (max-width: 1000px) {
-	.header_text h1 {
-	    font-size: 75px;
-	}
-}
