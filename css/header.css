@@ -4,7 +4,6 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Playfair Display';
 }
 a{
 	text-decoration: none;
@@ -45,6 +44,7 @@ header div{
 	max-width: 300px;
 	line-height: 105px;
 	margin-bottom: -25px;
+	font-family: 'Playfair Display';
 }
 
 .one_morning{

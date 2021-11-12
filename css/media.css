@@ -36,6 +36,9 @@
 	.my_blog_read{
 		margin-right: 0;
 	}
+	.my_blog_header .btn_circle {
+		align-items: center;
+	}
 
 }
 
@@ -174,6 +177,9 @@
 	}
 	.lovely_img{
 		margin-left: 66px;
+	}
+	.line_and_year::after{
+		margin-left: 0px;
 	}
 
 }
